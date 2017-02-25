@@ -1,0 +1,76 @@
+#animate{
+	background-color: red
+}
+
+#animate:hover{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	animation-name: example; 
+	animation-duration: 4s; 
+	border: 2px solid #000;
+	width: 200px;
+	height: 200px;
+	display: block;
+	margin: 10px;
+}
+@keyframes example{
+	from {background-color: red;}
+    to {background-color: green;}
+}
+#rotate {
+	background-color: yellow;
+}
+#rotate:hover{
+	border: 2px solid #000;
+	width: 200px;
+	height: 200px;
+	display: block;
+	margin: 10px;
+    animation-name: rotating;
+    animation-duration: 4s; 
+}
+@keyframes rotating{
+	from {
+		 transform: rotateY(0deg);
+		}
+	to {transform: rotateY(170deg);}
+}
+#skew{
+	background-color: blue;
+}
+#skew:hover{
+	background-color: blue;
+	animation-name: skew;
+    animation-duration: 4s; 
+}
+@keyframes skew{
+	from{-webkit-transform: skewX(0deg)}
+	to{-webkit-transform: skewX(170deg)}
+}
+#all{
+	background-color: orange;
+}
+#all:hover{
+	background-color: orange;
+	-webkit-transform:rotateY(150deg) skewX(150deg);
+	animation-name: alls;
+    animation-duration: 4s; 
+}
+@keyframes alls{
+	from{-webkit-transform:rotateY(0deg) skewX(0deg)};
+	to{-webkit-transform:rotateY(150deg) skewX(150deg)};
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
