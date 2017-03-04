@@ -1,0 +1,38 @@
+body{
+	background-image: url("https://media.giphy.com/media/34Du6omCm0X84/giphy.gif");
+	font-family: "Comic Sans MS";
+	text-align: center;	
+}
+span {
+	border-style: solid;
+	border-width: 1px;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	border-radius: 5px;
+	background-image: url('https://i.makeagif.com/media/11-29-2015/RuCh3i.gif')
+}
+
+#tab {
+	width: 35px;
+
+}
+
+#backspace{
+	width: 50px;
+}
+
+#capslock{
+	width: 40px;
+}
+#enter{
+	width: 50px;
+}
+
+#shift{
+	width: 40px;
+}
+
+.active{
+	background-image: url('poop/raw.gif')
+}

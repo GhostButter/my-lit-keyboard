@@ -2,30 +2,83 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>CSS Transform and Animations</title>
-  <link rel="stylesheet" href="./css/styles.css">
-  <!-- Add your animation.css here -->
+  <title>My Lit Keyboard</title>
+  <link rel="stylesheet" href="style.css"></link>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <header><h1>CSS Transform and Animations!</h1></header>
-  <section>
-    <h3>Rotate</h3>
-    <div id="rotate">Dank Memes</div>
-    <h3>Skew</h3>
-    <div id="skew"></div>
-    <h3>ALL THE TINGS!!</h3>
-    <div id="all">Memes Dank</div>
-  </section>
-  <section>
-    <h3>Keyframe animation</h3>
-    <div id="animate"></div>
-  </section>
-
-  <section>
-    <!-- Stretch goal: add extra animations here -->
-  </section>
-
-<!-- Stretch goal: add your js file here -->
+  <div id="main-container">
+    <h1>My Lit Keyboard</h1>
+    <div id="keyboard-container">
+      <div id="screen">
+        <textarea id="ta" autofocus></textarea>
+      </div>
+      <div id="first-row">
+        <span id="`">`</span>
+        <span id="1">1</span>
+        <span id="2">2</span>
+        <span id="3">3</span>
+        <span id="4">4</span>
+        <span id="5">5</span>
+        <span id="6">6</span>
+        <span id="7">7</span>
+        <span id="8">8</span>
+        <span id="9">9</span>
+        <span id="0">0</span>
+        <span id="-">-</span>
+        <span id="=">=</span>
+        <span id="backspace">delete</span>
+      </div>
+      <div id="second-row">
+        <span id="tab">tab</span>
+        <span id="q">q</span>
+        <span id="w">w</span>
+        <span id="e">e</span>
+        <span id="r">r</span>
+        <span id="t">t</span>
+        <span id="y">y</span>
+        <span id="u">u</span>
+        <span id="i">i</span>
+        <span id="o">o</span>
+        <span id="p">p</span>
+        <span id="[">[</span>
+        <span id="]">]</span>
+        <span id="\">\</span>
+      </div>
+      <div id="third-row">
+        <span id="capslock">caps</span>
+        <span id="a">a</span>
+        <span id="s">s</span>
+        <span id="d">d</span>
+        <span id="f">f</span>
+        <span id="g">g</span>
+        <span id="h">h</span>
+        <span id="j">j</span>
+        <span id="k">k</span>
+        <span id="l">l</span>
+        <span id=";">;</span>
+        <span id="'">'</span>
+        <span id="enter">return</span>
+      </div>
+      <div id="fourth-row">
+        <span id="shift">shift</span>
+        <span id="z">z</span>
+        <span id="x">x</span>
+        <span id="c">c</span>
+        <span id="v">v</span>
+        <span id="b">b</span>
+        <span id="n">n</span>
+        <span id="m">m</span>
+        <span id=","><</span>
+        <span id=".">></span>
+        <span id="/">/</span>
+        <span id="shift">shift</span>
+      </div>
+    </div>
+  </div>
+  <audio id="never">
+  <source src="poop/luigi3.mp3" type="audio/mpeg">
+  </audio>
+  <script type="text/javascript" src="app.js"></script>
 </body>
-<link rel="stylesheet" type="text/css" href="animations.css">
 </html>
